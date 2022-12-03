@@ -121,29 +121,76 @@ remove_action( 'storefront_header', 'storefront_skip_links',             0 );
 
 /**
  * Makes the navigation menu sticky
+ * and players and coaches work
  */
 
 function wpb_hook_javascript() {
-    ?>
-    <script type="text/javascript">
-        console.log('javascript works');
-        
-        window.onscroll = function() {myFunction()};
-        
-        function myFunction() {
-          if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-            console.log('if');
-            document.querySelector("nav").classList.add("minified");
-          } else {
-            console.log('else');
-            document.querySelector("nav").classList.remove("minified");
-          }
+  ?>
+  <script type="text/javascript">
+      console.log('javascript works');
+      
+      window.onscroll = function() {myFunction()};
+      
+      function myFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+          console.log('if');
+          document.querySelector("nav").classList.add("minified");
+        } else {
+          console.log('else');
+          document.querySelector("nav").classList.remove("minified");
         }
+      }
 
-    </script>
-    <?php
+      function updatePlayerHero(event) {
+          const playerHero = document.querySelector('.player-hero');
+          const playerNumber = playerHero.querySelector('.player-hero-info__number');
+          const playerName = playerHero.querySelector('.player-hero-info__name');
+          const playerAge = playerHero.querySelector('.player-hero-info__age');
+          const playerPosition = playerHero.querySelector('.player-hero-info__position');
+          const playerStickside = playerHero.querySelector('.player-hero-info__stickside');
+          const playerCountry = playerHero.querySelector('.player-hero-info__country');
+          const playerImg = playerHero.querySelector('img');
+
+          const playerTarget = event.target.parentElement;
+
+          playerNumber.innerText = playerTarget.getAttribute('data-number');
+          playerName.innerText = playerTarget.getAttribute('data-name');
+          playerAge.innerText = playerTarget.getAttribute('data-age');
+          playerPosition.innerText = playerTarget.getAttribute('data-position');
+          playerStickside.innerText = playerTarget.getAttribute('data-stickside');
+          playerCountry.innerText = playerTarget.getAttribute('data-country');
+          playerImg.src = playerTarget.querySelector('img').src;
+
+      }
+
+      const playerIcons = document.querySelectorAll('.player-icon');
+      playerIcons.forEach(playerIcon => {
+          playerIcon.addEventListener('click', updatePlayerHero);
+      });
+
+      function toggleTeamView(choice) {
+          const teamPlayers = document.querySelector('.player-container');
+          const teamCoaches = document.querySelector('.coach-container');
+          const teamSelector = document.querySelectorAll('.team-selector span');
+          teamSelector.forEach(selector => {
+              selector.classList.remove('active');
+          });
+          window.event.target.classList.add('active');
+
+          if (choice === 'player') {
+              teamPlayers.classList.remove('hidden');
+              teamCoaches.classList.add('hidden');
+          } else {
+              teamPlayers.classList.add('hidden');
+              teamCoaches.classList.remove('hidden');
+          }
+      }
+
+  </script>
+  <?php
+
+
 }
-
 
 function slide_partners(){
   ?>
