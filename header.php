@@ -36,7 +36,7 @@
 			</div>
 
 			<div class="nav-center">
-				<img src="http://myesbjergsharks.local/wp-content/uploads/2022/12/logo_for_light_mode.png" alt="">
+				<img src="https://zuzana-gabonayova.com/esbjerg-sharks/wp-content/uploads/2022/12/logo_for_light_mode.png" alt="">
 			</div>
 
 
