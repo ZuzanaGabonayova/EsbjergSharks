@@ -504,3 +504,148 @@ footer img{
   .slick-arrow {
     display: none;
   }
+
+
+  .team-header-container {
+    background: #000000;
+
+
+}
+.team-header {
+    max-width: 1200px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    
+
+}
+.team-header>span {
+    color: #42AADF;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.team-selector {
+    display: flex;
+    gap: 25px;
+}
+
+.team-selector span {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.team-selector span.active {
+    color: #42AADF;
+
+}
+
+.coach-container {
+    background: #000000;
+    padding: 20px 10px;
+
+}
+
+
+
+
+
+.coach-items {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+    
+
+}
+.coach-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% / 3);
+}
+
+.coach-item__name {
+    font-size: 50px;
+    font-weight: bold;
+}
+.coach-item__email {
+    font-size: 25px;
+}
+
+.hidden {
+    display: none!important;
+}
+
+.player-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: #000000;
+    padding: 20px 10px;
+}
+.player-hero {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.player-hero-img {
+    width: 50%;
+    padding-right: 100px;
+
+    
+}
+
+.player-hero-info {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 5px;
+    color: #ffffff;
+    
+    
+}
+
+.player-hero-info span {
+    font-size: 25px;
+
+    
+}
+
+.player-hero-info .player-hero-info__number {
+    color: #42AADF;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.player-hero-info .player-hero-info__name {
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 10px;
+}
+
+.player-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 1200px;
+
+}
+.player-icon {
+    max-width: 250px;
+}
+.player-icons img {
+    width: initial;
+    
+
+}
