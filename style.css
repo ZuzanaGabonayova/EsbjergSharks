@@ -1,10 +1,506 @@
 /*
 Theme Name: Esbjerg Sharks Child Theme
 Template: storefront
-Author: Zuzana Gabonayová
+Author: Zuzana Gabonayová, Leifur Bergmann Nielsen
 Description: This is a child theme for the storefront WP theme.
 Version: 1.0.1669023331
 Updated: 2022-11-21 09:35:31
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    overflow-x: hidden;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    height: 159px;
+    z-index: 99;
+    background-color: #000000;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    
+    
+    
+}
+
+.minified img{
+    width: 60px !important;
+    height: 60px !important;
+
+    
+    
+ }
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 20px;
+}
+
+.nav-left {
+    display: flex;
+    gap: 10px;
+    
+    align-items: center;
+    
+}
+
+.nav-center {
+    width: 240px;
+    display: flex;
+    width: 20%;
+}
+
+
+.nav-right {
+    display: flex;
+    gap: 10px ;
+    
+    align-items: center;
+}
+
+
+nav img {
+    width: 240px !important;
+    height: 240px !important;
+    position: absolute !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    top: 40px !important;
+    
+    
+}
+
+.player-box {
+    margin-top: 140px;
+    background-color: #000000;
+    width: 100%;
+    height: 800px;
+    max-width: 100%;
+    padding: 20px 20px;
+}
+
+.player-headline {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    padding-left: 150px;
+}
+
+.players-coaches {
+    display: flex;
+    gap: 10px;
+}
+
+.player-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.player-info img {
+    width: 30%;
+}
+
+.player-text {
+    padding-left: 90px;
+}
+
+.player-text p{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.player-info div {
+    width: 30%;
+}
+
+.player-box-img {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.player-box-img img {
+    width: 130px;
+}
+
+.col-full {
+    margin-top: 150px;
+    margin: 150px 0px 0px 0px;
+    padding: 0;
+}
+
+footer {
+    margin-top: 290px;
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+    gap: 100px;
+}
+
+footer img{
+    width: 86px;
+
+}
+
+
+@media (min-width: 768px) {
+    .col-full {
+        margin: 150px 0px 0px 0px;
+        padding: 0;
+        max-width: 100%;
+    }
+}
+
+
+#first-view{
+    height: fit-content;
+    min-height: 80vh;
+    width: 100%;
+    max-width: 100%;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-view{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.header-text{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-transform: uppercase;
+}
+
+.home-text h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #42AADF;
+}
+
+.home-text h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #42AADF;
+}
+
+.home-text input{
+    width: 300px;
+    height: 40px;
+    border-radius: 25px;
+    padding-left: 15px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #42AADF;
+    border: 3px solid #D3D2D2;
+}
+
+.home-text button{
+    width: fit-content;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #42AADF;
+    background-color: #000000;
+    color: #fff;
+}
+.home-text button:hover{
+    background-color: #42AADF;
+    color: #000000;
+}
+
+.boys-img{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.boys-img img{
+    width: 100%;
+    height: auto;
+}
+
+
+#matches{
+    margin-top: 3rem;
+    height: fit-content;
+    min-height: 50vh;
+    width: 100%;
+    max-width: 100%;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.matches{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#matches .last-match,
+#matches .next-match{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#matches .last-match .last-match-table,
+#matches .next-match .next-match-table{
+    width: 80%;
+    height: fit-content;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #42AADF;
+    border-radius: 40px;
+}
+
+#matches .last-match .last-match-table .heading,
+#matches .next-match .next-match-table .heading{
+    width: 100%;
+    background-color: #000000;
+    height: 70px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    color: #fff;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#matches .last-match .last-match-table .show-match,
+#matches .next-match .next-match-table .show-match{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    color: white;
+}
+
+#matches .last-match .last-match-table .show-match .team1,
+#matches .last-match .last-match-table .show-match .team2,
+#matches .next-match .next-match-table .show-match .team1,
+#matches .next-match .next-match-table .show-match .team2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+#matches .last-match .last-match-table .show-match .team1 img,
+#matches .last-match .last-match-table .show-match .team2 img,
+#matches .next-match .next-match-table .show-match .team1 img,
+#matches .next-match .next-match-table .show-match .team2 img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+}
+
+#matches .last-match .last-match-table .show-match .team1 h5,
+#matches .last-match .last-match-table .show-match .team2 h5,
+#matches .next-match .next-match-table .show-match .team1 h5,
+#matches .next-match .next-match-table .show-match .team2 h5{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#matches .last-match .last-match-table .show-match .score,
+#matches .next-match .next-match-table .show-match .score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#matches .last-match .last-match-table .show-match .score h5,
+#matches .next-match .next-match-table .show-match .score h5{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+
+
+#news{
+    margin-top: 3rem;
+    height: fit-content;
+    min-height: 85vh;
+    width: 100%;
+    max-width: 100%;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.news{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    align-items: flex-start;
+}
+
+#news .everynew{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#news .everynew .news-card{
+    width: 95%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #D3D2D2;
+    border-radius: 20px;
+}
+
+#news .everynew .news-card img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#news .everynew .news-card .news-heading{
+    padding: 10px;
+    color: #42AADF;
+}
+
+#news .everynew .news-card .news-heading h5{
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin: 0rem;
+}
+
+#news .everynew .news-card .news-heading p{
+    margin-bottom: 0px;
+}
+
+#news .everynew .news-card .line{
+    border-bottom: 2px solid #D3D2D2;
+    width: 95%;
+}
+
+#news .everynew .news-card .news-text{
+    padding: 10px;
+    color: #000000;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+
+#partners{
+    margin-top: 3rem;
+    height: fit-content;
+    min-height: 20vh;
+    width: 100%;
+    max-width: 100%;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Slider */
+.slick-slide {
+    margin: 0px 20px;
+  }
+  
+  .customer-logos {
+    overflow: inherit;
+    border-top: 1px solid #353535;
+    border-bottom: 1px solid #353535;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  #partners > div > div > section > div > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+  }
+  
+  .slick-track::before,
+  .slick-track::after {
+    display: table;
+    content: '';
+  }
+  
+  .slick-track::after {
+    clear: both;
+  }
+  
+  .slick-track {
+    padding: 1rem 0;
+  }
+  
+  .slick-loading .slick-track {
+    visibility: hidden;
+  }
+  
+  .slick-slide.slick-loading img {
+    display: none;
+  }
+  
+  .slick-slide.dragging img {
+    pointer-events: none;
+  }
+  
+  .slick-loading .slick-slide {
+    visibility: hidden;
+  }
+  
+  .slick-arrow {
+    display: none;
+  }

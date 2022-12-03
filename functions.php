@@ -15,3 +15,162 @@ endif;
 add_filter( 'locale_stylesheet_uri', 'chld_thm_cfg_locale_css' );
 
 // END ENQUEUE PARENT ACTION
+
+function load_resources()
+{
+    wp_enqueue_style("bootstrap", "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css");
+    wp_enqueue_style("font-awesome", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+    wp_enqueue_style("slick", "//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css");
+    wp_enqueue_style("theme-style", get_stylesheet_directory_uri() . "/style.css");
+
+    wp_register_script('jquery3', 'https://code.jquery.com/jquery-3.4.1.slim.min.js', array(), '3.4.1', true); // jQuery v3
+    wp_enqueue_script('jquery3');
+    wp_script_add_data( 'jquery3', array( 'integrity', 'crossorigin' ) , array( 'sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n', 'anonymous' ) );
+
+    wp_register_script('Bootstrap4', 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js', array(), '4.4.1', true);
+    wp_enqueue_script('Bootstrap4');
+    wp_script_add_data( 'Bootstrap4', array( 'integrity', 'crossorigin' ) , array( 'sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6', 'anonymous' ) );
+
+    wp_enqueue_script("ajax", "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js");
+
+/*     wp_enqueue_style("bootstrap", "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css");
+
+    wp_enqueue_script("bootstrap", "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js", array(), true); */
+}
+add_action("wp_enqueue_scripts", "load_resources");
+
+
+/**
+ *removes the storefront sidebar
+ */ 
+function tk_remove_storefront_sidebar() {
+    remove_action( 'storefront_sidebar', 'storefront_get_sidebar', 10 );
+  }
+  add_action( 'get_header', 'tk_remove_storefront_sidebar' );
+
+  /**
+ * Disable the Search Box in the Storefront Theme
+ */
+add_action( 'init', 'jk_remove_storefront_header_search' );
+function jk_remove_storefront_header_search() {
+remove_action( 'storefront_header', 'storefront_product_search',             40 );
+
+}
+/**
+ * Disable the Cart in the Storefront Theme
+ */
+add_action( 'init', 'jk_remove_storefront_header_cart' );
+function jk_remove_storefront_header_cart() {
+remove_action( 'storefront_header', 'storefront_header_cart',             60 );
+}
+
+/**
+ * disable the storefront header
+ */
+add_action( 'init', 'jk_remove_storefront_header' );
+function jk_remove_storefront_header() {
+remove_action( 'storefront_header', 'storefront_header_container',             0 );
+}
+
+/**
+ * disable the storefront footer
+ */
+add_action( 'init', 'jk_remove_storefront_footer' );
+function jk_remove_storefront_footer() {
+remove_action( 'storefront_footer', 'storefront_footer_widgets',             10 );
+remove_action( 'storefront_footer', 'storefront_credit',             20 );
+}
+
+/**
+ * disable the storefront primary navigation
+ */
+add_action( 'init', 'jk_remove_storefront_primary_navigation' );
+function jk_remove_storefront_primary_navigation() {
+remove_action( 'storefront_header', 'storefront_primary_navigation',             50 );
+}
+
+/**
+ * disable the storefront footer cart
+ */
+add_action( 'init', 'jk_remove_storefront_footer_cart' );
+function jk_remove_storefront_footer_cart() {
+remove_action( 'storefront_footer', 'storefront_handheld_footer_bar',             999 );
+}
+
+/**
+ * disable site-branding
+ */
+
+add_action( 'init', 'jk_remove_storefront_site_branding' );
+function jk_remove_storefront_site_branding() {
+remove_action( 'storefront_header', 'storefront_site_branding',             20 );
+}
+
+/**
+ * disable the hfeed site
+ */
+add_action( 'init', 'jk_remove_storefront_hfeed' );
+function jk_remove_storefront_hfeed() {
+remove_action( 'storefront_header', 'storefront_skip_links',             0 );
+}
+
+
+
+    
+
+
+/**
+ * Makes the navigation menu sticky
+ */
+
+function wpb_hook_javascript() {
+    ?>
+    <script type="text/javascript">
+        console.log('javascript works');
+        
+        window.onscroll = function() {myFunction()};
+        
+        function myFunction() {
+          if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            console.log('if');
+            document.querySelector("nav").classList.add("minified");
+          } else {
+            console.log('else');
+            document.querySelector("nav").classList.remove("minified");
+          }
+        }
+
+    </script>
+    <?php
+}
+
+
+function slide_partners(){
+  ?>
+  <script type="text/javascript">
+    console.log("works");
+		$(document).ready(function() {
+ 		  $('.customer-logos').slick({
+   			slidesToShow: 6,
+    		slidesToScroll: 1,
+			autoplay: true,
+			autoplaySpeed: 1000,
+			arrows: true,
+			dots: false,
+			pauseOnHover: false,
+			responsive: [{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 4
+			}
+			}, {
+			breakpoint: 520,
+			settings: {
+				slidesToShow: 3
+			}
+			}]
+		});
+		});
+    </script>
+  <?php
+}
