@@ -34,50 +34,6 @@ get_header(); ?>
     
 
 
-    <div class="player-box">
-        <div class="player-headline">
-            <p>team</p>
-            <div class="players-coaches">
-                <p>player</p>
-                <p>coaches</p>
-            </div>
-        </div>
-
-        <div class="player-info">
-            
-            <img src="<?php the_field('player_img'); ?>" />
-            <div class="player-text">
-
-                <p><?php the_field("p_number") ?></p>
-                <p><?php the_field("p_name") ?></p>
-                <p><?php the_field("p_age") ?></p>
-                <p>---</p>
-                <p><?php the_field("p_posis") ?></p>
-                <p><?php the_field("p_stick") ?></p>
-                <p><?php the_field("p_country") ?></p>
-                
-
-            </div>
-            <div></div>
-
-
-        </div>
-
-        <div class="player-box-img">
-            <img src="http://myesbjergsharks.local/wp-content/uploads/2022/12/DSCCCC_1801.png" alt="">
-            <img src="http://myesbjergsharks.local/wp-content/uploads/2022/12/DSCCCC_1801.png" alt="">
-            <img src="http://myesbjergsharks.local/wp-content/uploads/2022/12/DSCCCC_1801.png" alt="">
-            <img src="http://myesbjergsharks.local/wp-content/uploads/2022/12/DSCCCC_1801.png" alt="">
-            <img src="http://myesbjergsharks.local/wp-content/uploads/2022/12/DSCCCC_1801.png" alt="">
-            <img src="http://myesbjergsharks.local/wp-content/uploads/2022/12/DSCCCC_1801.png" alt="">
-            <img src="http://myesbjergsharks.local/wp-content/uploads/2022/12/DSCCCC_1801.png" alt="">
-            <img src="http://myesbjergsharks.local/wp-content/uploads/2022/12/DSCCCC_1801.png" alt="">
-            <img src="http://myesbjergsharks.local/wp-content/uploads/2022/12/DSCCCC_1801.png" alt="">
-
-
-    </div>
-
-    </div>
 
 
 <?php
