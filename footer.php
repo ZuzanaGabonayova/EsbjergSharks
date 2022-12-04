@@ -16,6 +16,7 @@
 
 	<footer>
 		<div id="contact">
+			<p>TEST</p>
 			<p>ESBJERG SHARKS <br> FLOORBALL CLUB</p>
 			<p>Engsvinget 30 <br> Bramming 6740 <br> Denmark</p>
 
