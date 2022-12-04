@@ -98,11 +98,13 @@ remove_action( 'storefront_footer', 'storefront_handheld_footer_bar',           
 }
 
 /**
- * disable the woocommerce-breadcrumb
+ * Remove breadcrumbs on specific pages
  */
-add_action( 'init', 'jk_remove_storefront_woocommerce_breadcrumb' );
-function jk_remove_storefront_woocommerce_breadcrumb() {
-remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb',             20 );
+add_action( 'init', 'wcc_remove_woo_wc_breadcrumbs' );
+function wcc_remove_woo_wc_breadcrumbs() {
+    
+        remove_action( 'woo_main_before', 'woo_display_breadcrumbs', 10 );
+    
 }
 
 
