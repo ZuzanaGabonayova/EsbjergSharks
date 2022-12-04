@@ -776,6 +776,7 @@ footer img{
     .nav {
         flex-direction: column;
         background: none;
+        height: initial;
     }
     .nav.nav-open .nav-left, .nav.nav-open .nav-right {
         transform: translateX(0);
@@ -789,6 +790,7 @@ footer img{
         justify-content: space-between;
         width: 100%;
         background-color: #000000;
+        padding: 5px;
         
     }
 
