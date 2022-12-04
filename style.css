@@ -714,8 +714,12 @@ footer img{
 
     }
 
-    footer {
+    .footer-container {
         flex-direction: column;
+    }
+
+    .footer-column.center-content {
+        flex-direction: row;
     }
 }
 
