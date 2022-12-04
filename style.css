@@ -758,6 +758,10 @@ footer img{
     .footer-column iframe {
         width: 100%;
     }
+
+    .storefront-sticky-add-to-cart {
+        top: 80px;
+    }
 }
 
 
@@ -771,3 +775,4 @@ footer img{
     padding-top: 80px;
     float: none;
 }
+
