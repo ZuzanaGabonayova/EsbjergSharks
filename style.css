@@ -728,8 +728,11 @@ footer img{
         width: 100%;
         
     }
-    .hide-mobile {
+    .hide-mobile.footer-column {
         display: none;
+    }
+    .footer-column iframe {
+        width: 100%;
     }
 }
 
