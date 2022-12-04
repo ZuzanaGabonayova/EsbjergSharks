@@ -720,6 +720,16 @@ footer img{
 
     .footer-column.center-content {
         flex-direction: row;
+        width: 100%;
+
+    }
+
+    .footer-column {
+        width: 100%;
+        
+    }
+    .hide-mobile {
+        display: none;
     }
 }
 
