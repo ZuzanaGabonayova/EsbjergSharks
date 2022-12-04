@@ -63,6 +63,7 @@ nav a {
     width: 240px;
     display: flex;
     width: 20%;
+    overflow: initial;
 }
 
 
