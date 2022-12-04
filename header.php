@@ -26,7 +26,7 @@
 
 
 <div id="page" class="hfeed site">
-	<NAV>
+	<nav class="nav">
 			<div class="nav-left">
 				<a href="">About</a>
 				<a href="#team">Team</a>
@@ -40,7 +40,7 @@
 				<a href="#news">News</a>
 				<a href="#contact">Contact</a>
 			</div>
-	</NAV>
+</nav>
 
 	<?php do_action( 'storefront_before_header' ); ?>
 	

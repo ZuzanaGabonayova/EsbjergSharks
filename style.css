@@ -32,7 +32,7 @@ p {
     margin: 0;
 }
 
-nav {
+.nav {
     display: flex;
     height: 159px;
     z-index: 99;
@@ -48,22 +48,22 @@ nav {
 }
 
 
-nav img {
+.nav img {
     transition: all 0.3s ease-in-out;
     
 }
 
-nav.minified {
+.nav.minified {
     height: 75px;
 }
 
-nav.minified img{
+.nav.minified img{
     width: 60px;
     height: 60px;
     top: 6px;
  }
 
-nav a {
+.nav a {
     color: #ffffff;
     text-decoration: none;
     font-size: 20px;
@@ -93,7 +93,7 @@ nav a {
     align-items: center;
 }
 
-nav img {
+.nav img {
     width: 240px;
     height: 240px;
     position: absolute;
@@ -727,7 +727,7 @@ footer img{
 
     }
 
-    nav img {
+    .nav img {
         width: 120px!important;
         height: 120px!important;
     }
