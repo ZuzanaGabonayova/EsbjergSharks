@@ -842,6 +842,21 @@ footer img{
         height: initial;
     }
 
+    
+    .content-area {
+        margin: 0 auto;
+        padding-top: 20px;
+        float: none;
+    }
+
+    .site-content {
+        padding-top: 20px;
+    }
+
+    body {
+        padding-top: 60px;
+    }
+
 
 
 }
