@@ -684,3 +684,8 @@ footer img{
 .woocommerce-breadcrumb {
     height: 100px;
 }
+
+.content-area {
+    margin: 0 auto;
+    float: none;
+}
