@@ -17,6 +17,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     padding-top: 159px;
     transition: padding 0.3s ease-in-out;
+    scroll-behavior: smooth;
 }
 
 body.minified {
