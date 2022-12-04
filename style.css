@@ -779,3 +779,6 @@ footer img{
     float: none;
 }
 
+.site-content {
+    padding-top: 80px;
+}
