@@ -16,8 +16,17 @@
 
 	<footer>
 		<div id="contact">
-			<p> <span class="footer-blue-text">ESBJERG SHARKS <br> FLOORBALL CLUB </span></p>
-			<p>Engsvinget 30 <br> Bramming 6740 <br> Denmark</p>
+			<div>
+				<span class="footer-blue-text">ESBJERG SHARKS</span>  
+				<span class="footer-blue-text">FLOORBALL CLUB </span>
+			</div>
+			<div>
+				<span>Engsvinget 30</span>
+				<span>Bramming 6740</span> 
+				<span>Denmark</span>
+			</div>
+
+
 
 			<iframe 
 				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2261.8214790616057!2d8.7131267159194!3d55.465778780477606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464b3c68c01bfb9b%3A0x3642a1a1ae9187b6!2sEngsvinget%2030%2C%206740%20Bramming!5e0!3m2!1sen!2sdk!4v1670183155856!5m2!1sen!2sdk" 
@@ -27,83 +36,69 @@
 
 		</div>
 		<div>
-			<p> <span class="footer-blue-text"> Bestyrelsen </span></p><br>
-
-			<p>Formand<br>    
-
-				Kenneth Falkesgaard<br>
-				+45 60 40 95 08<br>
-				formand@esbjergsharks.dk <br>
- 
-
- 
-
-				Næstformand<br>
-
-				Sille Højbo Andersen<br>
-				+45 60 14 73 37<br>
- 
-
- 
-
-				Kasserer<br>
-
-				Nicki Lund Kristensen<br>
-				+45 60 40 96 24<br>
-				faktura@esbjergsharks.dk</p>
-
+			<div>
+				<span class="footer-blue-text"> Bestyrelsen </span>
+			</div>
+			<div>
+				<span>Formand</span>
+				<span>Kenneth Falkesgaard</span>
+				<span>+45 60 40 95 08</span>
+				<span>formand@esbjergsharks.dk</span>     	
+			</div>
+			<div>
+				<span>
+				<span>Næstformand</span>
+				<span>Sille Højbo Andersen</span>
+				<span>+45 60 14 73 37</span>					
+			</div>
+			<div>
+				<span>Kasserer</span>
+				<span>Nicki Lund Kristensen</span>
+				<span>+45 60 40 96 24</span>
+				<span>faktura@esbjergsharks.dk</span>	
+			</div>
 		</div>
 		<div>
-
-		<p>Bestyrelsesmedlem<br>
-
-			Mette Skærbæk<br>
-			+45 40 73 22 11<br>
-
-
-
-
-			Bestyrelsesmedlem<br>
-
-			Kian Pedersen <br>
-			+45 50 41 48 89<br>
-
-
-
-
-			Bestyrelsesmedlem <br>
-
-			Lene Chrestensen</p>
-
+			<div>
+				<span>Bestyrelsesmedlem</span>
+				<span>Mette Skærbæk</span>
+				<span>+45 40 73 22 11</span>
+			</div>
+			<div>
+				<span>Bestyrelsesmedlem</span>
+				<span>Kian Pedersen </span>
+				<span>+45 50 41 48 89</span>
+			</div>
+			<div>
+				<span>Bestyrelsesmedlem</span>
+				<span>Lene Chrestensen</span>
+			</div>
 		</div>
 		<div>
-		<p> <span class="footer-blue-text">Dommere </span><br>
-			Dommeransvarlig<br>
+			<div>
+				<span class="footer-blue-text">Dommere </span>
+			</div>		 	
+		 	<div>
+				<span>Dommeransvarlig</span>
+				<span>Jeppe Kristensen </span>
+				<span>+45 26 22 26 42</span>
+				<span>jeaver79@gmail.com</span>
 
-			Jeppe Kristensen <br>
-			+45 26 22 26 42<br>
-			jeaver79@gmail.com<br>
-
-			Dommere<br>
-
-			Janni W Nielsen<br>
-			Jeppe Kristiansen<br> 
-			Kaj Andersen<br> 
-
-			Johnny Olesen<br>
-
-			Oliver Vejrum<br>
-
-			Martin Klindworth<br>
-		</p>	
-
+		 	</div>
+			 <div>
+				<span>Dommere</span>
+				<span>Janni W Nielsen </span>
+				<span>Jeppe Kristiansen </span>
+				<span>Kaj Andersen</span>
+				<span>Johnny Olesen</span>
+				<span>Oliver Vejrum</span>
+				<span>Martin Klindworth</span>
+		 	</div>									
 		</div>
 
 		<div>
 			<img src="http://myesbjergsharks.local/wp-content/uploads/2022/12/icons8-instagram-500.png" alt="">
-
 		</div>
-
 	</footer>
 
 	
