@@ -97,6 +97,14 @@ function jk_remove_storefront_footer_cart() {
 remove_action( 'storefront_footer', 'storefront_handheld_footer_bar',             999 );
 }
 
+/**
+ * disable the woocommerce-breadcrumb
+ */
+add_action( 'init', 'jk_remove_storefront_woocommerce_breadcrumb' );
+function jk_remove_storefront_woocommerce_breadcrumb() {
+remove_action( 'woocommerce_before_main_content', 'woocommerce_breadcrumb',             20 );
+}
+
 
 /**
  * Makes the navigation menu sticky
