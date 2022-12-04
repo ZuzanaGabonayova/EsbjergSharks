@@ -117,6 +117,13 @@ function wpb_hook_javascript() {
   ?>
   <script type="text/javascript">
       console.log('javascript works');
+
+      function toggleHamburger() {
+        const nav = document.querySelector('.nav');
+        nav.classList.toggle('nav-open');
+        
+      }
+      
       
       window.onscroll = function() {myFunction()};
       

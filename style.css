@@ -104,6 +104,12 @@ p {
     
 }
 
+.hamburger-btn {
+    display: none;
+}
+
+
+
 .player-box {
     margin-top: 140px;
     background-color: #000000;
@@ -763,6 +769,41 @@ footer img{
     .footer-column iframe {
         width: 100%;
     }
+
+    .hamburger-btn {
+        display: block;
+    }
+    .nav {
+        flex-direction: column;
+    }
+    .nav.nav-open .nav-left, .nav.nav-open .nav-right {
+        transform: translateX(0);
+        transition: transform 0.3s ease-in-out;
+
+
+    }
+
+    .nav-center {
+        order: 1;
+        justify-content: space-between;
+        
+    }
+
+    .nav-left {
+        order: 2;
+        transform: translateX(-100%);
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .nav-right {
+        order: 3;
+        transform: translateX(-100%);
+        width: 100%;
+        flex-direction: column;
+
+    }
+
 
 
 }
