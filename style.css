@@ -814,7 +814,7 @@ footer img{
         width: 100%;
         flex-direction: column;
         background-color: #000000;
-        margin-top: 5px;
+        padding-top: 5px;
         transition: transform 0.3s ease-in-out;
 
     }
