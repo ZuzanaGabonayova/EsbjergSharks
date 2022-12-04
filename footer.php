@@ -18,8 +18,8 @@
 		<div class="footer-container">
 			<div id="contact" class="footer-column">
 				<div>
-					<span class="footer-blue-text">ESBJERG SHARKS</span>  
-					<span class="footer-blue-text">FLOORBALL CLUB </span>
+					<span class="footer-column-header">ESBJERG SHARKS</span>  
+					<span class="footer-column-header">FLOORBALL CLUB </span>
 				</div>
 				<div>
 					<span>Engsvinget 30</span>
@@ -77,7 +77,7 @@
 			</div>
 			<div class="footer-column">
 				<div>
-					<span class="footer-blue-text">Dommere </span>
+					<span class="footer-column-header">Dommere </span>
 				</div>		 	
 				<div>
 					<span class="footer-column-subheader">Dommeransvarlig</span>
