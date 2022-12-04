@@ -121,12 +121,12 @@ function wpb_hook_javascript() {
       window.onscroll = function() {myFunction()};
       
       function myFunction() {
-        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-          console.log('if');
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {         
           document.querySelector("nav").classList.add("minified");
+          document.querySelector("body").classList.add("minified");
         } else {
-          console.log('else');
           document.querySelector("nav").classList.remove("minified");
+          document.querySelector("body").classList.remove("minified");
         }
       }
 

@@ -15,6 +15,12 @@ Updated: 2022-11-21 09:35:31
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    padding-top: 159px;
+    transition: paddingTop 0.3s ease-in-out;
+}
+
+body.minified {
+    padding-top: 70px;
 }
 
 p {
@@ -31,9 +37,19 @@ nav {
     position: fixed;
     width: 100%;
     overflow: visible;
+    transition: height 0.3s ease-in-out;   
     
-    
-    
+}
+
+
+nav img {
+    transition: height 0.3s ease-in-out;
+
+
+}
+
+nav.minified {
+    height: 75px;
 }
 
 .minified img{
