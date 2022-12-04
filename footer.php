@@ -15,7 +15,7 @@
 	<?php do_action( 'storefront_before_footer' ); ?>
 
 	<footer>
-		<div>
+		<div id="contact">
 			<p>ESBJERG SHARKS <br> FLOORBALL CLUB</p>
 			<p>Engsvinget 30 <br> Bramming 6740 <br> Denmark</p>
 

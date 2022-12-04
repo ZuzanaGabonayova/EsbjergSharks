@@ -30,20 +30,21 @@
 		
 			<div class="nav-left">
 				<a href="">About</a>
-				<a href="">Team</a>
-				<a href="">Fanshop</a>
+				<a href="#team">Team</a>
+				<a href="https://zuzana-gabonayova.com/esbjerg-sharks/shop/">Fanshop</a>
 
 			</div>
 
 			<div class="nav-center">
+				<a href="/"></a>
 				<img src="https://zuzana-gabonayova.com/esbjerg-sharks/wp-content/uploads/2022/12/logo_for_light_mode.png" alt="">
 			</div>
 
 
 			<div class="nav-right">
 				<a href="">Gallery</a>
-				<a href="">News</a>
-				<a href="">Contact</a>
+				<a href="#news">News</a>
+				<a href="#contact">Contact</a>
 			</div>
 		
 
