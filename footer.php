@@ -97,8 +97,9 @@
 				</div>									
 			</div>
 
-			<div class="footer-column">
-				<img src="http://myesbjergsharks.local/wp-content/uploads/2022/12/icons8-instagram-500.png" alt="">
+			<div class="footer-column center-content">
+				<a href=""><img src="https://zuzana-gabonayova.com/esbjerg-sharks/wp-content/uploads/2022/12/icons8-facebook-500.png" alt=""></a>
+				<a href=""><img src="https://zuzana-gabonayova.com/esbjerg-sharks/wp-content/uploads/2022/12/icons8-instagram-500.png" alt=""></a>
 			</div>
 
 		</div>
