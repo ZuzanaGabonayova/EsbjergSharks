@@ -33,7 +33,7 @@
 				<a href="https://zuzana-gabonayova.com/esbjerg-sharks/shop/">Fanshop</a>
 			</div>
 			<div class="nav-center">
-				<a href="/"><img src="https://zuzana-gabonayova.com/esbjerg-sharks/wp-content/uploads/2022/12/logo_for_light_mode.png" alt=""></a>	
+				<a href="/esbjerg-sharks/"><img src="https://zuzana-gabonayova.com/esbjerg-sharks/wp-content/uploads/2022/12/logo_for_light_mode.png" alt=""></a>	
 			</div>
 			<div class="nav-right">
 				<a href="">Gallery</a>
