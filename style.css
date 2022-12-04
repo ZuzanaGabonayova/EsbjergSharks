@@ -728,7 +728,7 @@ footer img{
         width: 100%;
         
     }
-    .hide-mobile.footer-column {
+    .hide-mobile {
         display: none;
     }
     .footer-column iframe {

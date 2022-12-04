@@ -57,8 +57,8 @@
 				</div>
 			</div>
 			<div class="footer-column">
-				<div>
-					<span class="footer-blue-text hide-mobile">&nbsp;</span>
+				<div class="hide-mobile">
+					<span class="footer-blue-text">&nbsp;</span>
 				</div>
 				<div>
 					<span class="footer-column-subheader">Bestyrelsesmedlem</span>
