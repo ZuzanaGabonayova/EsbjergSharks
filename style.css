@@ -35,7 +35,7 @@ p {
 .nav {
     display: flex;
     height: 159px;
-    z-index: 99;
+    z-index: 999;
     background-color: #000000;
     justify-content: center;
     align-items: center;
