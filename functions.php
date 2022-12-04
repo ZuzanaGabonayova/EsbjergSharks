@@ -129,6 +129,7 @@ function wpb_hook_javascript() {
           document.querySelector("body").classList.remove("minified");
         }
       }
+      myFunction();
 
       function updatePlayerHero(event) {
           const playerHero = document.querySelector('.player-hero');

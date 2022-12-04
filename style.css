@@ -712,7 +712,8 @@ footer img{
     }
 
     .storefront-sticky-add-to-cart {
-        top: 80px;
+        top: 76px;
+        z-index: 5;
     }
     
     
