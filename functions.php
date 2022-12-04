@@ -97,27 +97,6 @@ function jk_remove_storefront_footer_cart() {
 remove_action( 'storefront_footer', 'storefront_handheld_footer_bar',             999 );
 }
 
-/**
- * disable site-branding
- */
-
-add_action( 'init', 'jk_remove_storefront_site_branding' );
-function jk_remove_storefront_site_branding() {
-remove_action( 'storefront_header', 'storefront_site_branding',             20 );
-}
-
-/**
- * disable the hfeed site
- */
-add_action( 'init', 'jk_remove_storefront_hfeed' );
-function jk_remove_storefront_hfeed() {
-remove_action( 'storefront_header', 'storefront_skip_links',             0 );
-}
-
-
-
-    
-
 
 /**
  * Makes the navigation menu sticky
