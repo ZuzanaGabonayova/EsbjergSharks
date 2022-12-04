@@ -37,13 +37,15 @@ nav {
     position: fixed;
     width: 100%;
     overflow: visible;
-    transition: height 0.3s ease-in-out;   
+    transition: height 0.3s ease-in-out;
+    top: 0;   
     
 }
 
 
 nav img {
-    transition: height 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    
 
 
 }
@@ -164,8 +166,7 @@ nav img {
 }
 
 .col-full {
-    margin-top: 150px;
-    margin: 150px 0px 0px 0px;
+    margin: 0;
     padding: 0;
 }
 
@@ -701,7 +702,7 @@ footer img{
 
 @media (min-width: 768px) {
     .col-full {
-        margin: 150px 0px 0px 0px;
+        margin: 0;
         padding: 0;
         max-width: 100%;
     }
@@ -715,7 +716,7 @@ footer img{
 
 @media (max-width: 768px) {
     .col-full {
-        margin: 150px 0px 0px 0px;
+        margin: 0;
         padding: 0;
         max-width: 100%;
     }
