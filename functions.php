@@ -124,6 +124,7 @@ function wpb_hook_javascript() {
           const playerHero = document.querySelector('.player-hero');
           const playerNumber = playerHero.querySelector('.player-hero-info__number');
           const playerName = playerHero.querySelector('.player-hero-info__name');
+          const playerNameLast = playerHero.querySelector('.player-hero-info__lastname');
           const playerAge = playerHero.querySelector('.player-hero-info__age');
           const playerPosition = playerHero.querySelector('.player-hero-info__position');
           const playerStickside = playerHero.querySelector('.player-hero-info__stickside');
@@ -134,6 +135,7 @@ function wpb_hook_javascript() {
 
           playerNumber.innerText = playerTarget.getAttribute('data-number');
           playerName.innerText = playerTarget.getAttribute('data-name');
+          playerNameLast.innerText = playerTarget.getAttribute('data-lastname');
           playerAge.innerText = playerTarget.getAttribute('data-age');
           playerPosition.innerText = playerTarget.getAttribute('data-position');
           playerStickside.innerText = playerTarget.getAttribute('data-stickside');

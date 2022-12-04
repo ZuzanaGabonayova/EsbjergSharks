@@ -17,6 +17,7 @@
                     <div class="player-hero-info">
                         <span class="player-hero-info__number"><?php echo $playerrepeater["playernumber"]?></span>
                         <span class="player-hero-info__name"><?php echo $playerrepeater["playername"]?></span>
+                        <span class="player-hero-info__lastname"><?php echo $playerrepeater["playerlastname"]?></span>
                         <span class="player-hero-info__age"><?php echo $playerrepeater["playerage"]?></span>
                         <span class="player-hero-info__position"><?php echo $playerrepeater["playerposision"]?></span>
                         <span class="player-hero-info__stickside"><?php echo $playerrepeater["playerstickside"]?></span>
@@ -31,6 +32,7 @@
                 <div class="player-icon" 
                 data-number="<?php echo $playerrepeater["playernumber"]?>"
                 data-name="<?php echo $playerrepeater["playername"]?>"
+                data-lastname="<?php echo $playerrepeater["playerlastname"]?>"
                 data-age="<?php echo $playerrepeater["playerage"]?>"
                 data-position="<?php echo $playerrepeater["playerposision"]?>"
                 data-stickside="<?php echo $playerrepeater["playerstickside"]?>"
