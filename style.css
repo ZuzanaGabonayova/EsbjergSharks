@@ -16,7 +16,7 @@ Updated: 2022-11-21 09:35:31
 body{
     font-family: 'Montserrat', sans-serif;
     padding-top: 159px;
-    transition: paddingTop 0.3s ease-in-out;
+    transition: padding 0.3s ease-in-out;
 }
 
 body.minified {
@@ -52,12 +52,10 @@ nav.minified {
     height: 75px;
 }
 
-.minified img{
-    width: 60px !important;
-    height: 60px !important;
-
-    
-    
+nav.minified img{
+    width: 60px;
+    height: 60px;
+    top: 0;
  }
 
 nav a {
@@ -83,7 +81,6 @@ nav a {
     
 }
 
-
 .nav-right {
     display: flex;
     gap: 10px ;
@@ -91,14 +88,13 @@ nav a {
     align-items: center;
 }
 
-
 nav img {
-    width: 240px !important;
-    height: 240px !important;
-    position: absolute !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    top: 40px !important;
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
     
     
 }
