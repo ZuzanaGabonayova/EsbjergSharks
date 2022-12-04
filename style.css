@@ -30,6 +30,7 @@ nav {
     align-items: center;
     position: fixed;
     width: 100%;
+    overflow: visible;
     
     
     
@@ -63,7 +64,7 @@ nav a {
     width: 240px;
     display: flex;
     width: 20%;
-    overflow: initial;
+    
 }
 
 
