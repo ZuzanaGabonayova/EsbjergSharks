@@ -763,5 +763,6 @@ footer img{
 
 .content-area {
     margin: 0 auto;
+    margin-top: 80px;
     float: none;
 }
