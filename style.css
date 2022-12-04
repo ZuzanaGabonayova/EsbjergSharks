@@ -183,11 +183,13 @@ footer {
 .footer-column span {
     display: block;
     font-size: 20px;
+    color: #fff;
 }
 
-.footer-column-header {
+span.footer-column-header{
     color: #42AADF;
     font-size: 25px;
+    font-weight: bold;
 }
 
 .footer-column-subheader {
