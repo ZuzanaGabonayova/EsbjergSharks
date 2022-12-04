@@ -34,7 +34,7 @@
 			</div>
 			<div class="nav-center">
 				<a href="/esbjerg-sharks/"><img src="https://zuzana-gabonayova.com/esbjerg-sharks/wp-content/uploads/2022/12/logo_for_light_mode.png" alt=""></a>
-				<button onclick="toggleHamburger()" class="hamburger-btn">Hamburger</button>	
+				<button onclick="toggleHamburger()" class="hamburger-btn"><img src="https://zuzana-gabonayova.com/esbjerg-sharks/wp-content/uploads/2022/12/Hamburger.png" alt=""></button>	
 			</div>
 			<div class="nav-right">
 				<a href="">Gallery</a>
