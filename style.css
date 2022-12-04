@@ -646,6 +646,10 @@ footer img{
         padding: 0;
         max-width: 100%;
     }
+
+    .right-sidebar .content-area {
+        float: none;
+    }
     
     
 }
