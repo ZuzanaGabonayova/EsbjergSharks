@@ -115,10 +115,7 @@ p {
 
 }
 
-.hamburger-btn img {
-    width: 60px;
-    height: 60px;
-}
+
 
 
 
@@ -786,6 +783,14 @@ footer img{
 
     .hamburger-btn {
         display: flex;
+    }
+    .hamburger-btn img {
+        width: 60px;
+        height: 60px;
+    }
+    .hamburger-btn:hover {
+        background: none;
+        border: 0;
     }
     .nav {
         flex-direction: column;
