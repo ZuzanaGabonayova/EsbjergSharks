@@ -660,7 +660,7 @@ footer img{
 
 }
 
-.player-hero-info__lastname {
+.player-hero-info .player-hero-info__lastname {
     font-size: 40px;
     border-bottom: 1px solid #ffffff;
     margin-bottom: 10px;
