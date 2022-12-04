@@ -640,7 +640,7 @@ footer img{
     width: initial;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .col-full {
         margin: 150px 0px 0px 0px;
         padding: 0;
