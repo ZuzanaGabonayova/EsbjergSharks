@@ -646,4 +646,16 @@ footer img{
         padding: 0;
         max-width: 100%;
     }
+
+    .nav-left {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .nav-right{
+        display: flex;
+        flex-direction: column;
+
+    }
 }
