@@ -780,7 +780,7 @@ footer img{
     }
     .nav.nav-open .nav-left, .nav.nav-open .nav-right {
         transform: translateX(0);
-        transition: transform 0.3s ease-in-out;
+        
 
 
     }
@@ -805,6 +805,7 @@ footer img{
         width: 100%;
         flex-direction: column;
         background-color: #000000;
+        transition: transform 0.3s ease-in-out;
 
     }
     .nav-right {
@@ -813,6 +814,8 @@ footer img{
         width: 100%;
         flex-direction: column;
         background-color: #000000;
+        margin-top: 5px;
+        transition: transform 0.3s ease-in-out;
 
     }
 
