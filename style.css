@@ -653,9 +653,20 @@ footer img{
 
     }
 
+    .nav-img {
+        width: 120px;
+        height: 120px;
+    }
+
     .nav-right{
         display: flex;
         flex-direction: column;
 
+    }
+
+
+
+    footer {
+        flex-direction: column;
     }
 }
