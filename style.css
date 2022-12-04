@@ -166,16 +166,6 @@ footer img{
 
 }
 
-
-@media (min-width: 768px) {
-    .col-full {
-        margin: 150px 0px 0px 0px;
-        padding: 0;
-        max-width: 100%;
-    }
-}
-
-
 #first-view{
     height: fit-content;
     min-height: 80vh;
@@ -648,6 +638,12 @@ footer img{
 }
 .player-icons img {
     width: initial;
-    
+}
 
+@media (min-width: 768px) {
+    .col-full {
+        margin: 150px 0px 0px 0px;
+        padding: 0;
+        max-width: 100%;
+    }
 }
