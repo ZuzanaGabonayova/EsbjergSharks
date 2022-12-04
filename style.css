@@ -710,6 +710,10 @@ footer img{
         float: none;
         margin: 0 auto;
     }
+
+    .storefront-sticky-add-to-cart {
+        top: 80px;
+    }
     
     
 }
@@ -759,9 +763,7 @@ footer img{
         width: 100%;
     }
 
-    .storefront-sticky-add-to-cart {
-        top: 80px;
-    }
+
 }
 
 
