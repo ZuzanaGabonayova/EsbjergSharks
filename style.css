@@ -161,6 +161,11 @@ footer {
     gap: 100px;
 }
 
+.footer-blue-text {
+    color: #42AADF;
+    font-size: 25px;
+}
+
 footer img{
     width: 86px;
 

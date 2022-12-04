@@ -16,8 +16,7 @@
 
 	<footer>
 		<div id="contact">
-			<p>TEST</p>
-			<p>ESBJERG SHARKS <br> FLOORBALL CLUB</p>
+			<p> <span class="footer-blue-text">ESBJERG SHARKS <br> FLOORBALL CLUB </span></p>
 			<p>Engsvinget 30 <br> Bramming 6740 <br> Denmark</p>
 
 			<iframe 
@@ -28,7 +27,7 @@
 
 		</div>
 		<div>
-			<p>Bestyrelsen</p><br>
+			<p> <span class="footer-blue-text"> Bestyrelsen </span></p><br>
 
 			<p>Formand<br>    
 
@@ -78,7 +77,7 @@
 
 		</div>
 		<div>
-		<p>Dommere<br>
+		<p> <span class="footer-blue-text">Dommere </span><br>
 			Dommeransvarlig<br>
 
 			Jeppe Kristensen <br>
