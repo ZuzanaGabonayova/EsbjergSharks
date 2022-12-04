@@ -819,6 +819,10 @@ footer img{
 
     }
 
+    .nav.minified {
+        height: initial;
+    }
+
 
 
 }
