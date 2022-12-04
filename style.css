@@ -109,7 +109,15 @@ p {
     background: none;
     border: 0;
     padding: 5px;
-    
+    justify-content: center;
+    align-items: center;
+    appearance: none;
+
+}
+
+.hamburger-btn img {
+    width: 60px;
+    height: 60px;
 }
 
 
@@ -745,8 +753,8 @@ footer img{
     }
 
     .nav img {
-        width: 120px!important;
-        height: 120px!important;
+        width: 100px;
+        height: 100px;
     }
 
     .nav-right{
@@ -777,7 +785,7 @@ footer img{
     }
 
     .hamburger-btn {
-        display: block;
+        display: flex;
     }
     .nav {
         flex-direction: column;
