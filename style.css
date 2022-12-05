@@ -750,8 +750,8 @@ footer img{
     }
 
     .nav img {
-        width: 100px;
-        height: 100px;
+        width: 60px;
+        height: auto;
     }
 
     .nav-right{
@@ -785,8 +785,9 @@ footer img{
         display: flex;
     }
     .hamburger-btn img {
-        width: 60px;
-        height: 60px;
+        width: 40px;
+        height: auto;
+        border-radius: 0;
     }
     .hamburger-btn:hover {
         background: none;
@@ -844,17 +845,15 @@ footer img{
 
     
     .content-area {
-        margin: 0 auto;
         padding-top: 20px;
-        float: none;
     }
 
     .site-content {
-        padding-top: 20px;
+        padding-top: 0;
     }
 
     body {
-        padding-top: 60px;
+        padding-top: 70px;
     }
 
 
