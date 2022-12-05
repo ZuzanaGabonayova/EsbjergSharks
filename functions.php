@@ -134,7 +134,12 @@ function wpb_hook_javascript() {
       }
       
       
-      window.onscroll = function() {myFunction()};
+      //window.onscroll = function() {myFunction()};
+      document.addEventListener(
+          'scroll',
+          myFunction, 
+          { passive: true }
+      );
 
       
       
