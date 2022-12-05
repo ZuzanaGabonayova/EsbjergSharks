@@ -335,7 +335,7 @@ footer img{
 
 .sportspress{
     height: fit-content;
-    min-height: 60vh;
+    min-height: 55vh;
     margin-left: 1rem;
     margin-right: 1rem;
     justify-content: center;
@@ -349,7 +349,7 @@ footer img{
     -webkit-background-size: cover;
 }
 .sp-template{
-    width: 80%;
+    width: 75%;
 }
 .sp-table-caption{
     background: none!important;
@@ -366,10 +366,23 @@ footer img{
 tbody td,
 thead tr,
 thead tr th.sorting,
-tbody tr td{
+tbody tr td,
+tbody{
     background: none!important;
     border: none!important;
     color: #fff!important;
+}
+
+.sp-data-table .data-rank,
+.sp-league-table td.has-logo,
+.sp-data-table td{
+    border: none!important;
+    padding: 0px!important;
+}
+
+.sp-template *, .sp-data-table *, .sp-table-caption{
+    color: #fff!important;
+    border: none!important;
 }
 
 
@@ -1089,6 +1102,13 @@ tbody tr td{
         margin-top: 3rem;
     }
 
+
+    .sportspress{
+        min-height: 70vh;
+    }
+    .sp-template{
+        width: 80%;
+    }
 
 
     #matches{
