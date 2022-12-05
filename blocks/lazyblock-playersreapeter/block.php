@@ -12,7 +12,7 @@
 <?php foreach($attributes["playerrepeater"] as $playerrepeater): ?>
                 <div class="player-hero col-12">
                     <div class="player-hero-img ">
-                        <img class="fadeUpOnSeen" src="<?php echo $playerrepeater["playerimg"]?>" alt="">
+                        <img class="fadeUpOnSeen" src="<?php echo $playerrepeater["playerimg"]?>" alt="" height="500" width="500">
                     </div>
                     <div class="player-hero-info">
                         <span class="player-hero-info__number fadeUpOnSeen"><?php echo $playerrepeater["playernumber"]?></span>
@@ -38,7 +38,7 @@
                 data-stickside="<?php echo $playerrepeater["playerstickside"]?>"
                 data-country="<?php echo $playerrepeater["playercountry"]?>">
 
-                    <img src="<?php echo $playerrepeater["playerimg"]?>" alt="">
+                    <img src="<?php echo $playerrepeater["playerimg"]?>" alt="" height="121" width="121">
                 </div>
     <?php endforeach ?>
 
