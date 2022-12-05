@@ -1105,6 +1105,8 @@ tbody{
 
     .sportspress{
         min-height: 70vh;
+        margin: 0rem!important;
+        margin-top: -1rem!important;
     }
     .sp-template{
         width: 80%;
