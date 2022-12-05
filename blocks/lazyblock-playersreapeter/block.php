@@ -11,17 +11,17 @@
 <div class="player-container">
 <?php foreach($attributes["playerrepeater"] as $playerrepeater): ?>
                 <div class="player-hero col-12">
-                    <div class="player-hero-img">
-                        <img src="<?php echo $playerrepeater["playerimg"]?>" alt="">
+                    <div class="player-hero-img ">
+                        <img class="fadeUpOnSeen" src="<?php echo $playerrepeater["playerimg"]?>" alt="">
                     </div>
                     <div class="player-hero-info">
-                        <span class="player-hero-info__number"><?php echo $playerrepeater["playernumber"]?></span>
-                        <span class="player-hero-info__name"><?php echo $playerrepeater["playername"]?></span>
-                        <span class="player-hero-info__lastname"><?php echo $playerrepeater["playerlastname"]?></span>
-                        <span class="player-hero-info__age"><?php echo $playerrepeater["playerage"]?></span>
-                        <span class="player-hero-info__position"><?php echo $playerrepeater["playerposision"]?></span>
-                        <span class="player-hero-info__stickside"><?php echo $playerrepeater["playerstickside"]?></span>
-                        <span class="player-hero-info__country"><?php echo $playerrepeater["playercountry"]?></span>
+                        <span class="player-hero-info__number fadeUpOnSeen"><?php echo $playerrepeater["playernumber"]?></span>
+                        <span class="player-hero-info__name fadeUpOnSeen"><?php echo $playerrepeater["playername"]?></span>
+                        <span class="player-hero-info__lastname fadeUpOnSeen"><?php echo $playerrepeater["playerlastname"]?></span>
+                        <span class="player-hero-info__age fadeUpOnSeen"><?php echo $playerrepeater["playerage"]?></span>
+                        <span class="player-hero-info__position fadeUpOnSeen"><?php echo $playerrepeater["playerposision"]?></span>
+                        <span class="player-hero-info__stickside fadeUpOnSeen"><?php echo $playerrepeater["playerstickside"]?></span>
+                        <span class="player-hero-info__country fadeUpOnSeen"><?php echo $playerrepeater["playercountry"]?></span>
                     </div>
                     
                 </div>
