@@ -12,13 +12,9 @@
                         <input type="text" placeholder="join">
                         <button class="btn">JOIN</button>
                     </div>
-                    <!-- <a href="<?php echo $attributes["download-poster"]?>">
-                        <button download="EsbjergSharksJoinUs">DOWNLOAD POSTER</button>
-                    </a> -->
-
-                    <form method="get" action="<?php echo $attributes["download-poster"]?>">
-                        <button type="submit">Download!</button>
-                    </form>
+                    <a href="<?php echo $attributes["download-poster"]?>">
+                        <button>JOIN US POSTER</button>
+                    </a> 
 
                 </div>
             </div>
