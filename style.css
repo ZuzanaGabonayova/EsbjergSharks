@@ -912,6 +912,7 @@ footer img{
     }
     .coach-item {
         width: 100%;
+        max-width: 100%;
     }
 
 
