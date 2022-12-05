@@ -897,6 +897,15 @@ footer img{
         width: 100%;
     }
 
+    .player-icons {
+        flex-wrap: wrap;
+
+    }
+
+    .player-icon {
+        width: 17%;
+    }
+
 
 
 
