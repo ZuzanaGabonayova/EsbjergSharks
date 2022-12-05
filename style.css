@@ -795,6 +795,7 @@ footer img{
 
 #customer_details .col-1{
     width: 100%;
+    max-width: 100%;
     
 }
 #customer_details .form-row {
