@@ -126,6 +126,8 @@ function wpb_hook_javascript() {
       
       
       window.onscroll = function() {myFunction()};
+
+      let animationElements = document.querySelectorAll('.fadeUpOnSeen');
       
       function myFunction() {
         if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {         
@@ -135,8 +137,19 @@ function wpb_hook_javascript() {
           document.querySelector("nav").classList.remove("minified");
           document.querySelector("body").classList.remove("minified");
         }
+        animationElements.forEach(element => {
+          let elementPosition = element.getBoundingClientRect().top;
+          let screenPosition = window.innerHeight + window.scrollY;
+          if (elementPosition < screenPosition) {
+            element.classList.add('fadeUpSeen');
+          }
+        });
+
+
       }
       myFunction();
+
+      
 
       function updatePlayerHero(event) {
           const playerHero = document.querySelector('.player-hero');
