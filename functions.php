@@ -123,11 +123,20 @@ function wpb_hook_javascript() {
         nav.classList.toggle('nav-open');
         
       }
+
+      let animationElements = document.querySelectorAll('.fadeUpOnSeen');
+
+      function resetAnimationElements () {
+        const animationElements = document.querySelectorAll('.fadeUpOnSeen');
+        animationElements.forEach((element) => {
+          element.classList.remove('fadeUpSeen');
+        });
+      }
       
       
       window.onscroll = function() {myFunction()};
 
-      let animationElements = document.querySelectorAll('.fadeUpOnSeen');
+      
       
       function myFunction() {
         if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {         
@@ -172,6 +181,9 @@ function wpb_hook_javascript() {
           playerStickside.innerText = playerTarget.getAttribute('data-stickside');
           playerCountry.innerText = playerTarget.getAttribute('data-country');
           playerImg.src = playerTarget.querySelector('img').src;
+
+          resetAnimationElements();
+          setTimeout(myFunction, 100);
 
       }
 
