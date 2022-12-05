@@ -712,6 +712,15 @@ footer img{
 .player-icon {
     max-width: 250px;
 }
+.player-icon img {
+    transition: transform 0.3s ease-in-out;
+    overflow: visible;
+}
+
+.player-icon:hover img {
+    transform: scale(1.1);
+}
+
 .player-icons img {
     width: initial;
 }
