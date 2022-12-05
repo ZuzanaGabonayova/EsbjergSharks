@@ -407,6 +407,7 @@ footer img{
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
+    width: 30%;
 }
 
 #matches .last-match .last-match-table .show-match .team1 img,
@@ -437,6 +438,7 @@ footer img{
     font-size: 1rem;
     font-weight: 600;
     color: #fff!important;
+    width: 30%;
 }
 
 #matches .last-match .last-match-table .show-match .score h5,
