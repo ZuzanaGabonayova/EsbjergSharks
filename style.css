@@ -1218,3 +1218,11 @@ tbody{
 }
 
 
+.content-area,
+.site-content{
+    padding-top: 0px!important;
+}
+
+.entry-header{
+    display: none;
+}
