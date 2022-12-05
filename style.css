@@ -24,9 +24,7 @@ body{
     
 }
 
-body.minified {
-    padding-top: 70px;
-}
+
 
 p {
     margin: 0;
@@ -53,15 +51,7 @@ p {
     
 }
 
-.nav.minified {
-    height: 75px;
-}
 
-.nav.minified img{
-    width: 60px;
-    height: 60px;
-    top: 6px;
- }
 
 .nav a {
     color: #ffffff;
@@ -732,6 +722,20 @@ footer img{
         top: 76px;
         z-index: 5;
     }
+
+    body.minified {
+        padding-top: 70px;
+    }
+
+    .nav.minified {
+        height: 75px;
+    }
+    
+    .nav.minified img{
+        width: 60px;
+        height: 60px;
+        top: 6px;
+     }
     
     
 }
@@ -839,11 +843,6 @@ footer img{
 
     }
 
-    .nav.minified {
-        height: initial;
-    }
-
-    
     .content-area {
         padding-top: 20px;
     }
