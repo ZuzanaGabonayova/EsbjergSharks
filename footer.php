@@ -28,7 +28,7 @@
 				</div>
 				<iframe 
 					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2261.8214790616057!2d8.7131267159194!3d55.465778780477606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464b3c68c01bfb9b%3A0x3642a1a1ae9187b6!2sEngsvinget%2030%2C%206740%20Bramming!5e0!3m2!1sen!2sdk!4v1670183155856!5m2!1sen!2sdk" 
-					width="600" height="450" style="border:0;" allowfullscreen="" 
+					width="100%" height="280" style="border:0;" allowfullscreen="" 
 					loading="lazy" referrerpolicy="no-referrer-when-downgrade">
 				</iframe>
 
