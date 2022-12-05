@@ -333,6 +333,43 @@ footer img{
 }
 
 
+.sportspress{
+    height: fit-content;
+    min-height: 60vh;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: url('./img/standings_brush.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+.sp-template{
+    width: 80%;
+}
+.sp-table-caption{
+    background: none!important;
+    text-align: center;
+    border: none!important;
+}
+.sp-template h4{
+    font-size: 0.9rem!important;
+    font-weight: 600!important;
+    color: #42AADF!important;
+    text-transform: uppercase!important;
+}
+.sp-data-table,
+tbody td,
+thead th{
+    background: none!important;
+    border: none!important;
+}
+
+
 #matches{
     margin-top: 3rem;
     height: fit-content;
