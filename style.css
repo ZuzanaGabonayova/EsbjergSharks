@@ -793,6 +793,14 @@ footer img{
     padding-top: 80px;
 }
 
+#customer_details .col-1{
+    width: 100%;
+    
+}
+#customer_details .form-row {
+    flex-direction: column;
+}
+
 @media (min-width: 768px) {
     .col-full {
         margin: 0;
@@ -1137,3 +1145,5 @@ footer img{
     }
 
 }
+
+
