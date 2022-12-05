@@ -706,6 +706,20 @@ footer img{
     width: initial;
 }
 
+.woocommerce-breadcrumb {
+    height: 100px;
+}
+
+.content-area {
+    margin: 0 auto;
+    padding-top: 80px;
+    float: none;
+}
+
+.site-content {
+    padding-top: 80px;
+}
+
 @media (min-width: 768px) {
     .col-full {
         margin: 0;
@@ -804,6 +818,7 @@ footer img{
     }
     .nav.nav-open .nav-left, .nav.nav-open .nav-right {
         transform: translateX(0);
+        pointer-events: initial;
         
 
 
@@ -830,6 +845,7 @@ footer img{
         flex-direction: column;
         background-color: #000000;
         transition: transform 0.3s ease-in-out;
+        pointer-events: none;
 
     }
     .nav-right {
@@ -840,6 +856,7 @@ footer img{
         background-color: #000000;
         padding-top: 5px;
         transition: transform 0.3s ease-in-out;
+        pointer-events: none;
 
     }
 
@@ -861,16 +878,4 @@ footer img{
 
 
 
-.woocommerce-breadcrumb {
-    height: 100px;
-}
 
-.content-area {
-    margin: 0 auto;
-    padding-top: 80px;
-    float: none;
-}
-
-.site-content {
-    padding-top: 80px;
-}
