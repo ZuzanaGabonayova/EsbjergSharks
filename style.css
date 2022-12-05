@@ -640,6 +640,7 @@ footer img{
 .coach-container {
     background: #000000;
     padding: 10px 10px 35px 10px;
+    overflow: visible;
     
 
 }
