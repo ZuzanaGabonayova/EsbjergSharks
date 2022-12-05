@@ -803,6 +803,11 @@ footer img{
     flex-direction: column;
 }
 
+#customer-details .col-2 {
+    width: 100%;
+    max-width: 100%;
+}
+
 @media (min-width: 768px) {
     .col-full {
         margin: 0;
