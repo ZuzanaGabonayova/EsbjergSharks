@@ -594,7 +594,8 @@ footer img{
 
 .coach-container {
     background: #000000;
-    padding: 20px 10px;
+    padding: 10px 10px 35px 10px;
+    
 
 }
 
@@ -904,6 +905,13 @@ footer img{
 
     .player-icon {
         width: 17%;
+    }
+
+    .coach-items {
+        flex-direction: column;
+    }
+    .coach-item {
+        width: 100%;
     }
 
 
