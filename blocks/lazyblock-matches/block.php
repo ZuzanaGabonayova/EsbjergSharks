@@ -21,7 +21,7 @@
 
                             <div class="score">
                                 <p><?php echo $attributes["last-match-date"]?></p>
-                                <p><?php echo $attributes["last-match-date"]?></p>
+                                <p><?php echo $attributes["last-match-time"]?></p>
                                 <h5><?php echo $attributes["last-match-team1-goals"]?> : <?php echo $attributes["last-match-team2-goals"]?></h5>
                                 <p>END</p>
                             </div>
@@ -55,7 +55,7 @@
 
                             <div class="score">
                                 <p><?php echo $attributes["next-match-date"]?></p>
-                                <p><?php echo $attributes["next-match-date"]?></p>
+                                <p><?php echo $attributes["next-match-time"]?></p>
                                 <h5>-- : --</h5>
                             </div>
 

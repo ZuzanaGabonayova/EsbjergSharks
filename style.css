@@ -364,9 +364,12 @@ footer img{
 }
 .sp-data-table,
 tbody td,
-thead th{
+thead tr,
+thead tr th.sorting,
+tbody tr td{
     background: none!important;
     border: none!important;
+    color: #fff!important;
 }
 
 
