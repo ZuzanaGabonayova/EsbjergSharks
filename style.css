@@ -698,6 +698,7 @@ footer img{
 .player-hero-img {
     width: 50%;
     padding-right: 100px;
+    overflow: visible;
 
     
 }
@@ -708,6 +709,7 @@ footer img{
     
     gap: 5px;
     color: #ffffff;
+    overflow: visible;
     
     
 }
