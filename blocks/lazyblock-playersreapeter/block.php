@@ -1,7 +1,7 @@
-<div class="team-header-container">
+<div id="team" class="team-header-container">
     <div class="team-header">
         <span>Team</span>
-        <div id="team" class="team-selector">
+        <div  class="team-selector">
             <span class="active" onclick="toggleTeamView('player')">Player</span>
             <span onclick="toggleTeamView('coaches')">Coaches</span>
         </div>
