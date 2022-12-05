@@ -193,7 +193,7 @@ p {
 }
 
 footer {
-    margin-top: 290px;
+    margin-top: 0px;
     background-color: #000000;
 }
 
@@ -243,7 +243,7 @@ footer img{
 
 #first-view{
     height: fit-content;
-    min-height: 80vh;
+    min-height: 90vh;
     width: 100%;
     max-width: 100%;
 
@@ -284,8 +284,16 @@ footer img{
     color: #42AADF;
 }
 
+.joinourteam{
+    height: fit-content;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
 .home-text input{
-    width: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 95%;
     height: 40px;
     border-radius: 25px;
     padding-left: 15px;
@@ -368,11 +376,18 @@ footer img{
     height: 70px;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
-    color: #fff;
+    color: #fff!important;
     font-size: 1.2rem;
     align-items: center;
     justify-content: center;
     display: flex;
+}
+
+#matches .last-match .last-match-table .heading h3,
+#matches .next-match .next-match-table .heading h3{
+    color: #fff!important;
+    font-weight: bold;
+    margin: 0px!important;
 }
 
 #matches .last-match .last-match-table .show-match,
@@ -380,7 +395,7 @@ footer img{
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    color: white;
+    color: white!important;
 }
 
 #matches .last-match .last-match-table .show-match .team1,
@@ -409,6 +424,8 @@ footer img{
 #matches .next-match .next-match-table .show-match .team2 h5{
     font-size: 1.2rem;
     font-weight: 600;
+    color: #fff!important;
+    text-align: center;
 }
 
 #matches .last-match .last-match-table .show-match .score,
@@ -419,18 +436,20 @@ footer img{
     align-items: center;
     font-size: 1rem;
     font-weight: 600;
+    color: #fff!important;
 }
 
 #matches .last-match .last-match-table .show-match .score h5,
 #matches .next-match .next-match-table .show-match .score h5{
     font-size: 1.5rem;
     font-weight: 800;
+    color: #fff!important;
 }
 
 
 
 #news{
-    margin-top: 3rem;
+    margin-top: 4rem;
     height: fit-content;
     min-height: 85vh;
     width: 100%;
@@ -474,22 +493,31 @@ footer img{
 
 #news .everynew .news-card .news-heading{
     padding: 10px;
-    color: #42AADF;
+    color: #42AADF!important;
 }
 
 #news .everynew .news-card .news-heading h5{
     font-size: 1.2rem;
     font-weight: 800;
     margin: 0rem;
+    color: #42AADF!important;
 }
 
 #news .everynew .news-card .news-heading p{
     margin-bottom: 0px;
 }
 
+#news .everynew .news-card .lineee{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 #news .everynew .news-card .line{
     border-bottom: 2px solid #D3D2D2;
-    width: 95%;
+    width: 92%;
 }
 
 #news .everynew .news-card .news-text{
@@ -501,9 +529,10 @@ footer img{
 
 
 #partners{
-    margin-top: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     height: fit-content;
-    min-height: 20vh;
+    min-height: 15vh;
     width: 100%;
     max-width: 100%;
 
@@ -521,11 +550,10 @@ footer img{
   
   .customer-logos {
     overflow: inherit;
-    border-top: 1px solid #353535;
-    border-bottom: 1px solid #353535;
     justify-content: center;
     display: flex;
     align-items: center;
+    gap: 15px;
   }
 
   #partners > div > div > section > div > div{
@@ -573,6 +601,7 @@ footer img{
   }
 
 
+  
   .team-header-container {
     background: #000000;
 
@@ -901,6 +930,7 @@ footer img{
         padding-top: 20px;
     }
 
+
     .site-content {
         padding-top: 0;
     }
@@ -950,3 +980,151 @@ footer img{
 
 
 
+
+
+
+
+
+@media only screen and (max-width: 990px) {    
+    #first-view{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        min-height: 75vh;
+    }
+
+    .home-text{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        text-transform: uppercase;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .home-text h1{
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    
+    .home-text h3{
+        font-size: 1.6rem;
+    }
+
+    .home-text .joinourteam{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 85%;
+    }
+    
+    .boysss{
+        margin-top: 3rem;
+    }
+
+
+
+    #matches{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        min-height: 80vh;
+    }
+
+    .matches{
+        gap: 2rem;
+    }
+    
+    #matches .last-match .last-match-table,
+    #matches .next-match .next-match-table{
+        width: 100%;
+        min-height: 250px;
+    }
+    
+    #matches .last-match .last-match-table .heading,
+    #matches .next-match .next-match-table .heading{
+        height: 60px;
+        font-size: 1rem;
+    }
+    
+    #matches .last-match .last-match-table .show-match,
+    #matches .next-match .next-match-table .show-match{
+        padding: 15px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        justify-content: space-between;
+        gap: 5px;
+    }
+    
+    #matches .last-match .last-match-table .show-match .team1,
+    #matches .last-match .last-match-table .show-match .team2,
+    #matches .next-match .next-match-table .show-match .team1,
+    #matches .next-match .next-match-table .show-match .team2,
+    #matches .last-match .last-match-table .show-match .score,
+    #matches .next-match .next-match-table .show-match .score{
+        width: 30%;
+    }
+
+
+    #matches .last-match .last-match-table .show-match .team1 img,
+    #matches .last-match .last-match-table .show-match .team2 img,
+    #matches .next-match .next-match-table .show-match .team1 img,
+    #matches .next-match .next-match-table .show-match .team2 img{
+        width: 70px;
+        height: 70px;
+        margin-bottom: 1rem;
+    }
+    
+    #matches .last-match .last-match-table .show-match .team1 h5,
+    #matches .last-match .last-match-table .show-match .team2 h5,
+    #matches .next-match .next-match-table .show-match .team1 h5,
+    #matches .next-match .next-match-table .show-match .team2 h5{
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+    
+    #matches .last-match .last-match-table .show-match .score,
+    #matches .next-match .next-match-table .show-match .score{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    
+    #matches .last-match .last-match-table .show-match .score h5,
+    #matches .next-match .next-match-table .show-match .score h5{
+        font-size: 1.1rem;
+    }
+
+
+
+    #news{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        min-height: 80vh;
+    }
+
+    #news .news{
+        gap: 2rem;
+    }
+    
+    #news .everynew .news-card{
+        width: 100%;
+    }
+    
+    #news .everynew .news-card .news-heading p{
+        margin-bottom: 0px;
+        font-weight: 500;
+    }
+    
+    #news .everynew .news-card .news-text{
+        font-size: 0.9rem;
+    }
+
+
+
+    #partners{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        min-height: 5vh;
+    }
+
+}

@@ -18,8 +18,9 @@
                                 <p><?php echo $newsCard["news-date"] ?></p>
                             </div>
 
-                            <div class="line"></div>
-
+                            <div class="lineee">
+                                <div class="line"></div>
+                            </div>
                             <div class="news-text">
                                 <?php echo $newsCard["news-description"] ?>
                             </div>
