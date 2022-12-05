@@ -1,7 +1,7 @@
-<div class="team-header-container">
+<div id="team" class="team-header-container">
     <div class="team-header">
         <span>Team</span>
-        <div id="team" class="team-selector">
+        <div  class="team-selector">
             <span class="active" onclick="toggleTeamView('player')">Player</span>
             <span onclick="toggleTeamView('coaches')">Coaches</span>
         </div>
@@ -12,7 +12,7 @@
 <?php foreach($attributes["playerrepeater"] as $playerrepeater): ?>
                 <div class="player-hero col-12">
                     <div class="player-hero-img ">
-                        <img class="fadeUpOnSeen" src="<?php echo $playerrepeater["playerimg"]?>" alt="">
+                        <img class="fadeUpOnSeen" src="<?php echo $playerrepeater["playerimg"]?>" alt="" height="500" width="500">
                     </div>
                     <div class="player-hero-info">
                         <span class="player-hero-info__number fadeUpOnSeen"><?php echo $playerrepeater["playernumber"]?></span>
@@ -38,7 +38,7 @@
                 data-stickside="<?php echo $playerrepeater["playerstickside"]?>"
                 data-country="<?php echo $playerrepeater["playercountry"]?>">
 
-                    <img src="<?php echo $playerrepeater["playerimg"]?>" alt="">
+                    <img src="<?php echo $playerrepeater["playerimg"]?>" alt="" height="121" width="121">
                 </div>
     <?php endforeach ?>
 

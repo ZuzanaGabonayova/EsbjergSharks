@@ -28,9 +28,10 @@
 <div id="page" class="hfeed site">
 	<nav class="nav">
 			<div class="nav-left">
-				<a href="">About</a>
-				<a href="#team">Team</a>
+				
+				<a href="/esbjerg-sharks/#team">Team</a>
 				<a href="https://zuzana-gabonayova.com/esbjerg-sharks/shop/">Fanshop</a>
+				<a href="https://zuzana-gabonayova.com/esbjerg-sharks/cart/">Cart</a>
 			</div>
 			<div class="nav-center">
 				<a href="/esbjerg-sharks/"><img src="https://zuzana-gabonayova.com/esbjerg-sharks/wp-content/uploads/2022/12/logo_for_light_mode.png" alt=""></a>
@@ -38,7 +39,7 @@
 			</div>
 			<div class="nav-right">
 				<a href="">Gallery</a>
-				<a href="#news">News</a>
+				<a href="/esbjerg-sharks/#news">News</a>
 				<a href="#contact">Contact</a>
 			</div>
 </nav>
