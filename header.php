@@ -26,31 +26,22 @@
 
 
 <div id="page" class="hfeed site">
-	<NAV>
-		
+	<nav class="nav">
 			<div class="nav-left">
 				<a href="">About</a>
 				<a href="#team">Team</a>
 				<a href="https://zuzana-gabonayova.com/esbjerg-sharks/shop/">Fanshop</a>
-
 			</div>
-
 			<div class="nav-center">
-				<a href="/"></a>
-				<img src="https://zuzana-gabonayova.com/esbjerg-sharks/wp-content/uploads/2022/12/logo_for_light_mode.png" alt="">
+				<a href="/esbjerg-sharks/"><img src="https://zuzana-gabonayova.com/esbjerg-sharks/wp-content/uploads/2022/12/logo_for_light_mode.png" alt=""></a>
+				<button onclick="toggleHamburger()" class="hamburger-btn"><img src="https://zuzana-gabonayova.com/esbjerg-sharks/wp-content/uploads/2022/12/Hamburger.png" alt=""></button>	
 			</div>
-
-
 			<div class="nav-right">
 				<a href="">Gallery</a>
 				<a href="#news">News</a>
 				<a href="#contact">Contact</a>
 			</div>
-		
-
-
-
-	</NAV>
+</nav>
 
 	<?php do_action( 'storefront_before_header' ); ?>
 	

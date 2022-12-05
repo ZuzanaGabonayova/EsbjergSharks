@@ -13,38 +13,47 @@ Updated: 2022-11-21 09:35:31
 *{
     overflow-x: hidden;
 }
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
+    padding-top: 159px;
+    transition: padding 0.3s ease-in-out;
+    
 }
+
+
 
 p {
     margin: 0;
 }
 
-nav {
+.nav {
     display: flex;
     height: 159px;
-    z-index: 99;
+    z-index: 999;
     background-color: #000000;
     justify-content: center;
     align-items: center;
     position: fixed;
     width: 100%;
     overflow: visible;
-    
-    
+    transition: height 0.3s ease-in-out;
+    top: 0;   
     
 }
 
-.minified img{
-    width: 60px !important;
-    height: 60px !important;
 
+.nav img {
+    transition: all 0.3s ease-in-out;
     
-    
- }
+}
 
-nav a {
+
+
+.nav a {
     color: #ffffff;
     text-decoration: none;
     font-size: 20px;
@@ -67,7 +76,6 @@ nav a {
     
 }
 
-
 .nav-right {
     display: flex;
     gap: 10px ;
@@ -75,17 +83,33 @@ nav a {
     align-items: center;
 }
 
-
-nav img {
-    width: 240px !important;
-    height: 240px !important;
-    position: absolute !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    top: 40px !important;
+.nav img {
+    width: 240px;
+    height: 240px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40px;
     
     
 }
+
+.hamburger-btn {
+    display: none;
+    background: none;
+    border: 0;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    appearance: none;
+
+}
+
+
+
+
+
+
 
 .player-box {
     margin-top: 140px;
@@ -148,8 +172,7 @@ nav img {
 }
 
 .col-full {
-    margin-top: 150px;
-    margin: 150px 0px 0px 0px;
+    margin: 0;
     padding: 0;
 }
 
@@ -572,6 +595,7 @@ footer img{
     max-width: 1200px;
     text-transform: uppercase;
     margin: 0 auto;
+    padding: 25px 10px 0 10px;
     
 
 }
@@ -599,7 +623,8 @@ footer img{
 
 .coach-container {
     background: #000000;
-    padding: 20px 10px;
+    padding: 10px 10px 35px 10px;
+    
 
 }
 
@@ -643,7 +668,7 @@ footer img{
     justify-content: center;
     gap: 20px;
     background: #000000;
-    padding: 20px 10px;
+    padding: 10px 10px 35px 10px;
 }
 .player-hero {
     max-width: 1200px;
@@ -651,6 +676,7 @@ footer img{
     justify-content: center;
     align-items: center;
     margin-bottom: 25px;
+    padding: 0;
 }
 
 .player-hero-img {
@@ -680,11 +706,15 @@ footer img{
     color: #42AADF;
     font-size: 50px;
     font-weight: bold;
+    line-height: 56px;
+    overflow: visible;
 
 }
 
 .player-hero-info .player-hero-info__name {
     font-size: 40px;
+    line-height: 40px;
+    overflow: visible;
     
 
 }
@@ -694,6 +724,9 @@ footer img{
     border-bottom: 1px solid #ffffff;
     margin-bottom: 10px;
     font-weight: bold;
+    overflow: visible;
+    line-height: 40px;
+    padding-bottom: 18px;
 
 }
 
@@ -712,23 +745,57 @@ footer img{
     width: initial;
 }
 
+.woocommerce-breadcrumb {
+    height: 100px;
+}
+
+.content-area {
+    margin: 0 auto;
+    padding-top: 80px;
+    float: none;
+}
+
+.site-content {
+    padding-top: 80px;
+}
+
 @media (min-width: 768px) {
     .col-full {
-        margin: 150px 0px 0px 0px;
+        margin: 0;
         padding: 0;
         max-width: 100%;
     }
 
     .right-sidebar .content-area {
         float: none;
+        margin: 0 auto;
     }
+
+    .storefront-sticky-add-to-cart {
+        top: 76px;
+        z-index: 5;
+    }
+
+    body.minified {
+        padding-top: 70px;
+    }
+
+    .nav.minified {
+        height: 75px;
+    }
+    
+    .nav.minified img{
+        width: 60px;
+        height: 60px;
+        top: 6px;
+     }
     
     
 }
 
 @media (max-width: 768px) {
     .col-full {
-        margin: 150px 0px 0px 0px;
+        margin: 0;
         padding: 0;
         max-width: 100%;
     }
@@ -739,9 +806,9 @@ footer img{
 
     }
 
-    nav img {
-        width: 120px!important;
-        height: 120px!important;
+    .nav img {
+        width: 60px;
+        height: auto;
     }
 
     .nav-right{
@@ -770,18 +837,125 @@ footer img{
     .footer-column iframe {
         width: 100%;
     }
+
+    .hamburger-btn {
+        display: flex;
+    }
+    .hamburger-btn img {
+        width: 40px;
+        height: auto;
+        border-radius: 0;
+    }
+    .hamburger-btn:hover {
+        background: none;
+        border: 0;
+    }
+    .nav {
+        flex-direction: column;
+        background: none;
+        height: initial;
+        pointer-events: none;
+    }
+    .nav.nav-open .nav-left, .nav.nav-open .nav-right {
+        transform: translateX(0);
+        pointer-events: initial;
+        
+
+
+    }
+
+    .nav-center {
+        order: 1;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #000000;
+        padding: 5px;
+        pointer-events: initial;
+        
+    }
+
+    .nav-center img {
+        position: initial;
+        transform: none;
+    }
+
+    .nav-left {
+        order: 2;
+        transform: translateX(-100%);
+        width: 100%;
+        flex-direction: column;
+        background-color: #000000;
+        transition: transform 0.3s ease-in-out;
+        pointer-events: none;
+
+    }
+    .nav-right {
+        order: 3;
+        transform: translateX(-100%);
+        width: 100%;
+        flex-direction: column;
+        background-color: #000000;
+        padding-top: 5px;
+        transition: transform 0.3s ease-in-out;
+        pointer-events: none;
+
+    }
+
+    .content-area {
+        padding-top: 20px;
+    }
+
+
+    .site-content {
+        padding-top: 0;
+    }
+
+    body {
+        padding-top: 70px;
+    }
+
+    .player-hero {
+        flex-direction: column;
+        
+    }
+
+    .player-hero-img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .player-hero-info {
+        width: 100%;
+    }
+
+    .player-icons {
+        flex-wrap: wrap;
+
+    }
+
+    .player-icon {
+        width: 17%;
+    }
+
+    .coach-items {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .coach-item {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+
+
+
 }
 
 
 
-.woocommerce-breadcrumb {
-    height: 100px;
-}
 
-.content-area {
-    margin: 0 auto;
-    float: none;
-}
+
 
 
 

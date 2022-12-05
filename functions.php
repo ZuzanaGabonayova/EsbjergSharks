@@ -117,18 +117,26 @@ function wpb_hook_javascript() {
   ?>
   <script type="text/javascript">
       console.log('javascript works');
+
+      function toggleHamburger() {
+        const nav = document.querySelector('.nav');
+        nav.classList.toggle('nav-open');
+        
+      }
+      
       
       window.onscroll = function() {myFunction()};
       
       function myFunction() {
-        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-          console.log('if');
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {         
           document.querySelector("nav").classList.add("minified");
+          document.querySelector("body").classList.add("minified");
         } else {
-          console.log('else');
           document.querySelector("nav").classList.remove("minified");
+          document.querySelector("body").classList.remove("minified");
         }
       }
+      myFunction();
 
       function updatePlayerHero(event) {
           const playerHero = document.querySelector('.player-hero');
