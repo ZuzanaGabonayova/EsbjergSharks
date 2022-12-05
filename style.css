@@ -909,6 +909,7 @@ footer img{
 
     .coach-items {
         flex-direction: column;
+        gap: 50px;
     }
     .coach-item {
         width: 100%;
