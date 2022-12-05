@@ -755,6 +755,7 @@ footer img{
     align-items: center;
     gap: 10px;
     max-width: 1200px;
+    overflow: visible;
 
 }
 .player-icon {
