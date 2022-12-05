@@ -13,13 +13,13 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
-
+	<div id="primary-stop" class="content-area-stop">
+		<main id="main-stop" class="site-main-stop" role="main-stop">
+        
 		<?php
 		if ( have_posts() ) :
+            the_content();
 
-			get_template_part( 'loop' );
 
 		else :
 
@@ -30,6 +30,11 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+
+    
+
+
+
 
 <?php
 do_action( 'storefront_sidebar' );
