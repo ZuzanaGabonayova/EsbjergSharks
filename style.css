@@ -815,6 +815,7 @@ footer img{
         flex-direction: column;
         background: none;
         height: initial;
+        pointer-events: none;
     }
     .nav.nav-open .nav-left, .nav.nav-open .nav-right {
         transform: translateX(0);
@@ -830,6 +831,7 @@ footer img{
         width: 100%;
         background-color: #000000;
         padding: 5px;
+        pointer-events: initial;
         
     }
 
